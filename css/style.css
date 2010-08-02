@@ -1,0 +1,40 @@
+html{
+font-size: 100%;
+} 
+
+body{
+font-size: 1em;
+font-family: georgia, serif;
+padding: 0;
+margin: 0;
+}
+
+
+#divbody{
+	width: 60em;
+	background-color:#fff;
+	margin: auto;
+}
+
+#logo{
+	float:left;
+	background-color: blue;
+	
+}
+
+#login{
+	float: left;
+}
+
+#beschreibung{
+	float: left;
+}
+
+#registrierung{
+    float: left;
+}
+
+
+.clear{
+	clear:both;
+}

@@ -4,31 +4,110 @@ font-size: 100%;
 
 body{
 font-size: 1em;
-font-family: georgia, serif;
+font-family: arial;
 padding: 0;
 margin: 0;
 }
 
 
 #divbody{
-	width: 60em;
+	/*width: 60em;*/
 	background-color:#fff;
+	/*margin: auto;*/
+}
+
+#head{
+	background-color: #295EFF;
+}
+
+#headcontent{
+	width: 60em;
 	margin: auto;
 }
 
 #logo{
 	float:left;
-	background-color: blue;
-	
+	/*background-color: blue;*/
+	height: 3.75em;
+	background-image:url(../images/logo.png);
+	width:14.625em;
 }
 
 #login{
-	float: left;
+	width: 40em;
+    float: right;
+    /*margin-right: 10em;*/
+	/*background-color:green;*/
+	height: 3.75em;
+	margin:auto;
+}
+
+
+
+#loginformular{
+	margin-top:1.1em;
+	color: white;
+	
+}
+
+#loginformular > input{
+    border-style:solid;
+    border-color:black;
+	border-width: 0.188em;
+}
+
+#email{
+    
+	
+}
+
+#password{
+   
+}
+
+#loginbutton{
+/*	float:left;*/
+}
+
+#content{
+	background-color:green;
+	height:35em;
+	margin:auto;
+	width: 60em;
 }
 
 #beschreibung{
 	float: left;
+	height:inherit;
+	width:40em;
+	background-image:url(../images/atmel.jpg);
 }
+
+
+#beschreibungtext{
+    background-color:#295EFF;
+    width:20em;
+    height:inherit;
+    opacity:0.9;
+    /*border-style:solid;*/
+    /*border-color:black;*/
+    color:white;
+    
+}
+
+#about{
+	position:relative;
+	top:6em;
+	
+	margin:auto;
+	width:15em;
+}
+
+#abouthead{
+	font-weight:bold;
+}
+
+
 
 #registrierung{
     float: left;

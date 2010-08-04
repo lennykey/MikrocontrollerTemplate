@@ -3,24 +3,54 @@
     "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" >
 <head>
- <title>MikroAdmin at Testbranch</title>
+ <title>MikroAdmin</title>
  <link rel="stylesheet" type="text/css" href="css/style.css">
-
 </head>
 <body>
 <div id="divbody">
 	<div id="head">
-		<div id="logo">Logo</div><div id="login">Login</div>
+		<div id="headcontent">
+		<div id="logo">
+			<!-- included in css -->
+		</div>
+		<div id="login">
+			<form id="loginformular" method="post" action="">
+             <label for="email">Email:</label> 
+			 <input type="text" id="email" name="email" />
+             <label for="password">Passwort:</label>
+			 <input type="text" id="password" name="password" />
+             <input type="submit" id="submitlogin" value="Login"/>
+            </form>
+			
+		</div>
 		<div class="clear"></div>
+		</div>
 	</div>
 	<div id="content">
 		<div id="beschreibung">
-			<div>Beschreibung</div>
-			<div>Das ist die Webschnittstelle</div>
+			<div id="beschreibungtext">
+			<div id="about">
+			<div id="abouthead">About:</div>
+			<div>
+				MikroAdmin ermöglicht es dem registrierten Besucher aus einer
+				Auswahl von Mikrocontrollern einen für sich zu reservieren, um 
+				ungestört per SSH auf diese zuzugreifen. Diese Applikation 
+				ermöglicht unter anderem folgende weitere Funktionen,
+				<ul>
+					<li>Reservierung</li>
+					<li>Power Off/On</li>
+					<li>Reset</li>
+					<li>Abrufen von Statusinformationen</li>
+				</ul>
+				für die jeweiligen Controller.
+			</div>
+			</div>
+			</div>
 		</div>
 		<div id="registrierung">Registrierung</div>
 		<div class="clear"></div>
 	</div>
+	
 	<div id="footer">
 		Footer
 	</div>

@@ -4,6 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" >
 <head>
  <title>MikroAdmin</title>
+ <meta http-equiv="content-type" content="text/html; charset=utf-8">
  <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
@@ -29,8 +30,10 @@
 	<div id="content">
 		<div id="beschreibung">
 			<div id="beschreibungtext">
-			<div id="about">
-			<div id="abouthead">About:</div>
+			
+			<fieldset id="about">
+			<legend class="legend">About:</legend>	
+			
 			<div>
 				MikroAdmin ermöglicht es dem registrierten Besucher aus einer
 				Auswahl von Mikrocontrollern einen für sich zu reservieren, um 
@@ -44,15 +47,42 @@
 				</ul>
 				für die jeweiligen Controller.
 			</div>
-			</div>
+			</fieldset>
+			
 			</div>
 		</div>
-		<div id="registrierung">Registrierung</div>
+		<div id="registrierung">
+			
+            <form id="registerformular" method="post" action="">
+            <fieldset id="registerformularfieldset">
+            <legend class="legend">Registrierung:</legend>
+            <div>	
+             <label for="registeremail">Email:</label>
+             <input type="text" id="registeremail" name="registeremail" />
+			</div>
+			<div>
+             <label for="registerpassword">Passwort:</label>
+             <input type="password" id="registerpassword" name="registerpassword" />
+			</div>
+			<div>
+             <label for="registerpassword2">Passwort wiederholen:</label>
+             <input type="password" id="registerpassword2" name="registerpassword2" />
+            </div>
+            
+			<input type="submit" id="submitregister" value="Registrieren"/>
+			</fieldset>
+            </form>
+			<div id="registrierunginfo">
+			Die Registrierung und die Nutzung dieses Services ist kostenlos.
+			</div>
+        </div>
 		<div class="clear"></div>
 	</div>
 	
 	<div id="footer">
-		Footer
+		<div id="footercontent">
+			Footer|Footer|Footer
+		</div>
 	</div>
 </div>
 </body>

@@ -1,5 +1,6 @@
 html{
 font-size: 100%;
+heigt:100%;
 } 
 
 body{
@@ -7,8 +8,16 @@ font-size: 1em;
 font-family: arial;
 padding: 0;
 margin: 0;
+height:100%;
+background-color:#666666;
+
+
 }
 
+#wrapper{
+    width:60em;	
+	background-color:#666666;
+}
 
 #divbody{
 	/*width: 60em;*/
@@ -17,7 +26,10 @@ margin: 0;
 }
 
 #head{
-	background-color: #295EFF;
+	background-color: #3B5998;
+	height:6em;
+	border-bottom-style:solid;
+	border-bottom-color:black;
 }
 
 #headcontent{
@@ -42,12 +54,10 @@ margin: 0;
 	margin:auto;
 }
 
-
-
 #loginformular{
 	margin-top:1.1em;
 	color: white;
-	
+	float:right;
 }
 
 #loginformular > input{
@@ -57,12 +67,11 @@ margin: 0;
 }
 
 #email{
-    
-	
+    width: 10em;
 }
 
 #password{
-   
+    width: 10em;
 }
 
 #loginbutton{
@@ -70,10 +79,14 @@ margin: 0;
 }
 
 #content{
-	background-color:green;
+	/*background-color:green;*/
 	height:35em;
 	margin:auto;
 	width: 60em;
+	border-left-style:solid;
+	border-left-color:black;
+	border-right-style:solid;
+    border-right-color:black;
 }
 
 #beschreibung{
@@ -85,7 +98,7 @@ margin: 0;
 
 
 #beschreibungtext{
-    background-color:#295EFF;
+    background-color:#3B5998;
     width:20em;
     height:inherit;
     opacity:0.9;
@@ -97,22 +110,87 @@ margin: 0;
 
 #about{
 	position:relative;
-	top:6em;
-	
+	top:5em;
 	margin:auto;
 	width:15em;
+	border-style:solid;
+	border-color:white;
+	padding: 1em;
+	
 }
 
+/*
 #abouthead{
 	font-weight:bold;
+	font-size:1.2em;
 }
-
-
+*/
 
 #registrierung{
-    float: left;
+    float:left;
+	width:20em;
+	height:inherit;
+	background-color:#4B70BF;
 }
 
+#registerformular{
+	position:relative;
+	top:5em;
+	width:13em;
+	margin:auto;
+   	color:white;
+	
+}
+
+#registerformular > *{
+     width: 11em;  
+     /*float:left;*/    
+}
+
+#registerformularfieldset{
+	border-color:white;
+	border-style:solid;
+	
+}
+
+#registerformularfieldset input{
+  	border-style:solid;
+    border-color:black;;
+	margin-bottom:1em;
+    
+}
+
+
+#registrierunginfo{
+	position:relative;
+	top:7em;
+	margin:auto;
+	width:13em;
+	color:white;
+}
+
+#footer{
+	background-color:#666666;
+	color:white;
+	border-top-style:solid;
+    border-top-color:black;
+	/*background-color:black;*/
+	/*background-image:url(../images/blackpixel.png);*/
+	/*background-repeat:repeat-y*/
+	/*height:auto;*/
+
+}
+
+#footercontent{
+	width: 60em;
+	margin:auto;
+	
+}
+
+.legend{
+	font-size:1.2em;
+	font-weight:bold;
+}
 
 .clear{
 	clear:both;

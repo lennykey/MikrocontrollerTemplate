@@ -3,16 +3,12 @@
 }
 
 html, body {
-background-color: #999999;
+background-color:#666666;
 margin: 0;
 padding: 0;
 height: 100%; /* WICHTIG!!! STRECKT ANZEIGENBEREICH AUF 100% */
+font-family:Arial, Helvetica, sans-serif;
 
-}
-
-#wrapper{
-    width:60em;	
-	background-color:#666666;
 }
 
 #divbody{
@@ -20,22 +16,17 @@ height: 100%; /* WICHTIG!!! STRECKT ANZEIGENBEREICH AUF 100% */
 	/*width: 60em;*/
 	background-color:#666666;
 	/*margin: auto;*/
-	min-height: 100%; /* Mindesthöhe für moderne Browser */
-    height:auto !important; /* Important Regel für moderne Browser */
-    height:100%; /* Mindesthöhe für den IE */ 
+	height:100%; /* Mindesthöhe für moderne Browser */
     overflow: hidden !important; /* FF Scroll-leiste */
 	width:60em; 
-	border-left-style:solid;
-	border-left-color:black;
-	border-right-style:solid;
-    border-right-color:black;
+	
 }
 
 #head{
 	background-color: #3B5998;
 	height:6em;
 	border-bottom-style:solid;
-	border-bottom-color:black;
+	border-bottom-color:white;
 }
 
 #headcontent{
@@ -91,9 +82,11 @@ height: 100%; /* WICHTIG!!! STRECKT ANZEIGENBEREICH AUF 100% */
 	/*background-color:green;*/
 	margin:auto;
   	width: 60em;
-	height:40em;
-    border-bottom-color:black;
+    height:40em;
+    border-bottom-color:#999999;
 	border-bottom-style:solid;
+	
+    
 }
 
 #beschreibung{
@@ -113,12 +106,13 @@ height: 100%; /* WICHTIG!!! STRECKT ANZEIGENBEREICH AUF 100% */
     /*border-style:solid;*/
     /*border-color:black;*/
     color:white;
+	border-left-style:solid;
+    border-left-color:#999999;
     
 }
 
 #beschreibungtextcontent{
-	position:relative;
-	top:3em;
+	padding-top:3em;
 	
 }
 
@@ -143,9 +137,11 @@ height: 100%; /* WICHTIG!!! STRECKT ANZEIGENBEREICH AUF 100% */
 
 #registrierung{
     float:left;
-	width:20em;
+	width:19.8em;
 	height:inherit;
 	background-color:#4B70BF;
+	border-right-color:#999999;
+    border-right-style:solid;
 	
 }
 
@@ -198,7 +194,7 @@ height: 100%; /* WICHTIG!!! STRECKT ANZEIGENBEREICH AUF 100% */
 #footer{
 	background-color:#666666;
 	color:white;
-	min-height:7em;
+	min-height:5em;
 	margin-top:0;
 	/*background-color:black;*/
 	/*background-image:url(../images/blackpixel.png);*/
@@ -213,6 +209,11 @@ height: 100%; /* WICHTIG!!! STRECKT ANZEIGENBEREICH AUF 100% */
 	height:inherit;
 	background-color:#666666;
 	padding:1em;
+}
+
+#footercontent > span{
+	margin:0.5em;
+	font-size:0.8em;
 }
 
 .legend{
